@@ -10,7 +10,6 @@
 		4F4D6DFA28B38BA400E942BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DF928B38BA400E942BB /* AppDelegate.swift */; };
 		4F4D6DFC28B38BA400E942BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */; };
 		4F4D6DFE28B38BA400E942BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFD28B38BA400E942BB /* ViewController.swift */; };
-		4F4D6E0128B38BA400E942BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFF28B38BA400E942BB /* Main.storyboard */; };
 		4F4D6E0428B38BA400E942BB /* SimpleOvpn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */; };
 		4F4D6E0628B38BA500E942BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D6E0528B38BA500E942BB /* Assets.xcassets */; };
 		4F4D6E0928B38BA500E942BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */; };
@@ -41,7 +40,6 @@
 		4F4D6DF928B38BA400E942BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4F4D6DFD28B38BA400E942BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F4D6E0028B38BA400E942BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F4D6E0328B38BA400E942BB /* SimpleOvpn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleOvpn.xcdatamodel; sourceTree = "<group>"; };
 		4F4D6E0528B38BA500E942BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F4D6E0828B38BA500E942BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				4F4D6DF928B38BA400E942BB /* AppDelegate.swift */,
 				4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */,
 				4F4D6DFD28B38BA400E942BB /* ViewController.swift */,
-				4F4D6DFF28B38BA400E942BB /* Main.storyboard */,
 				4F4D6E0528B38BA500E942BB /* Assets.xcassets */,
 				4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */,
 				4F4D6E0A28B38BA500E942BB /* Info.plist */,
@@ -236,7 +233,6 @@
 			files = (
 				4F4D6E0928B38BA500E942BB /* LaunchScreen.storyboard in Resources */,
 				4F4D6E0628B38BA500E942BB /* Assets.xcassets in Resources */,
-				4F4D6E0128B38BA400E942BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F4D6DFF28B38BA400E942BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F4D6E0028B38BA400E942BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +434,6 @@
 				INFOPLIST_FILE = SimpleOvpn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +461,6 @@
 				INFOPLIST_FILE = SimpleOvpn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

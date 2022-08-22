@@ -16,6 +16,8 @@
 		4F4D6E1428B38BA500E942BB /* SimpleOvpnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1328B38BA500E942BB /* SimpleOvpnTests.swift */; };
 		4F4D6E1E28B38BA500E942BB /* SimpleOvpnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1D28B38BA500E942BB /* SimpleOvpnUITests.swift */; };
 		4F4D6E2028B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1F28B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift */; };
+		4F910DBE28B3BE1D00FFE4F7 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4F910DBD28B3BE1D00FFE4F7 /* Swinject */; };
+		4F910DC128B3C10800FFE4F7 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 4F910DC028B3C10800FFE4F7 /* SwinjectAutoregistration */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F910DBE28B3BE1D00FFE4F7 /* Swinject in Frameworks */,
+				4F910DC128B3C10800FFE4F7 /* SwinjectAutoregistration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +83,10 @@
 		4F4D6DED28B38BA400E942BB = {
 			isa = PBXGroup;
 			children = (
+				4F4D6DF728B38BA400E942BB /* Products */,
 				4F4D6DF828B38BA400E942BB /* SimpleOvpn */,
 				4F4D6E1228B38BA500E942BB /* SimpleOvpnTests */,
 				4F4D6E1C28B38BA500E942BB /* SimpleOvpnUITests */,
-				4F4D6DF728B38BA400E942BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +103,12 @@
 		4F4D6DF828B38BA400E942BB /* SimpleOvpn */ = {
 			isa = PBXGroup;
 			children = (
+				4F4D6E0A28B38BA500E942BB /* Info.plist */,
 				4F4D6DF928B38BA400E942BB /* AppDelegate.swift */,
 				4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */,
 				4F4D6DFD28B38BA400E942BB /* ViewController.swift */,
 				4F4D6E0528B38BA500E942BB /* Assets.xcassets */,
 				4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */,
-				4F4D6E0A28B38BA500E942BB /* Info.plist */,
 				4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */,
 			);
 			path = SimpleOvpn;
@@ -143,6 +147,10 @@
 			dependencies = (
 			);
 			name = SimpleOvpn;
+			packageProductDependencies = (
+				4F910DBD28B3BE1D00FFE4F7 /* Swinject */,
+				4F910DC028B3C10800FFE4F7 /* SwinjectAutoregistration */,
+			);
 			productName = SimpleOvpn;
 			productReference = 4F4D6DF628B38BA400E942BB /* SimpleOvpn.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,10 @@
 				Base,
 			);
 			mainGroup = 4F4D6DED28B38BA400E942BB;
+			packageReferences = (
+				4F910DBC28B3BE1D00FFE4F7 /* XCRemoteSwiftPackageReference "Swinject" */,
+				4F910DBF28B3C10800FFE4F7 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+			);
 			productRefGroup = 4F4D6DF728B38BA400E942BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -592,6 +604,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F910DBC28B3BE1D00FFE4F7 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
+		4F910DBF28B3C10800FFE4F7 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F910DBD28B3BE1D00FFE4F7 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F910DBC28B3BE1D00FFE4F7 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		4F910DC028B3C10800FFE4F7 /* SwinjectAutoregistration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F910DBF28B3C10800FFE4F7 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = SwinjectAutoregistration;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */ = {

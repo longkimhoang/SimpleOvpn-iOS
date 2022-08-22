@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4D6DFA28B38BA400E942BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DF928B38BA400E942BB /* AppDelegate.swift */; };
+		4F4D6DFC28B38BA400E942BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */; };
+		4F4D6DFE28B38BA400E942BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFD28B38BA400E942BB /* ViewController.swift */; };
+		4F4D6E0128B38BA400E942BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFF28B38BA400E942BB /* Main.storyboard */; };
+		4F4D6E0428B38BA400E942BB /* SimpleOvpn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */; };
+		4F4D6E0628B38BA500E942BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D6E0528B38BA500E942BB /* Assets.xcassets */; };
+		4F4D6E0928B38BA500E942BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */; };
+		4F4D6E1428B38BA500E942BB /* SimpleOvpnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1328B38BA500E942BB /* SimpleOvpnTests.swift */; };
+		4F4D6E1E28B38BA500E942BB /* SimpleOvpnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1D28B38BA500E942BB /* SimpleOvpnUITests.swift */; };
+		4F4D6E2028B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1F28B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F4D6E1028B38BA500E942BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4D6DEE28B38BA400E942BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4D6DF528B38BA400E942BB;
+			remoteInfo = SimpleOvpn;
+		};
+		4F4D6E1A28B38BA500E942BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4D6DEE28B38BA400E942BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4D6DF528B38BA400E942BB;
+			remoteInfo = SimpleOvpn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4D6DF628B38BA400E942BB /* SimpleOvpn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleOvpn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D6DF928B38BA400E942BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F4D6DFD28B38BA400E942BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F4D6E0028B38BA400E942BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F4D6E0328B38BA400E942BB /* SimpleOvpn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleOvpn.xcdatamodel; sourceTree = "<group>"; };
+		4F4D6E0528B38BA500E942BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4D6E0828B38BA500E942BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F4D6E0A28B38BA500E942BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4D6E0F28B38BA500E942BB /* SimpleOvpnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOvpnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D6E1328B38BA500E942BB /* SimpleOvpnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOvpnTests.swift; sourceTree = "<group>"; };
+		4F4D6E1928B38BA500E942BB /* SimpleOvpnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOvpnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D6E1D28B38BA500E942BB /* SimpleOvpnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOvpnUITests.swift; sourceTree = "<group>"; };
+		4F4D6E1F28B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOvpnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4D6DF328B38BA400E942BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D6E0C28B38BA500E942BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D6E1628B38BA500E942BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4D6DED28B38BA400E942BB = {
+			isa = PBXGroup;
+			children = (
+				4F4D6DF828B38BA400E942BB /* SimpleOvpn */,
+				4F4D6E1228B38BA500E942BB /* SimpleOvpnTests */,
+				4F4D6E1C28B38BA500E942BB /* SimpleOvpnUITests */,
+				4F4D6DF728B38BA400E942BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4D6DF728B38BA400E942BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D6DF628B38BA400E942BB /* SimpleOvpn.app */,
+				4F4D6E0F28B38BA500E942BB /* SimpleOvpnTests.xctest */,
+				4F4D6E1928B38BA500E942BB /* SimpleOvpnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4D6DF828B38BA400E942BB /* SimpleOvpn */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D6DF928B38BA400E942BB /* AppDelegate.swift */,
+				4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */,
+				4F4D6DFD28B38BA400E942BB /* ViewController.swift */,
+				4F4D6DFF28B38BA400E942BB /* Main.storyboard */,
+				4F4D6E0528B38BA500E942BB /* Assets.xcassets */,
+				4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */,
+				4F4D6E0A28B38BA500E942BB /* Info.plist */,
+				4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */,
+			);
+			path = SimpleOvpn;
+			sourceTree = "<group>";
+		};
+		4F4D6E1228B38BA500E942BB /* SimpleOvpnTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D6E1328B38BA500E942BB /* SimpleOvpnTests.swift */,
+			);
+			path = SimpleOvpnTests;
+			sourceTree = "<group>";
+		};
+		4F4D6E1C28B38BA500E942BB /* SimpleOvpnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D6E1D28B38BA500E942BB /* SimpleOvpnUITests.swift */,
+				4F4D6E1F28B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift */,
+			);
+			path = SimpleOvpnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4D6DF528B38BA400E942BB /* SimpleOvpn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4D6E2328B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpn" */;
+			buildPhases = (
+				4F4D6DF228B38BA400E942BB /* Sources */,
+				4F4D6DF328B38BA400E942BB /* Frameworks */,
+				4F4D6DF428B38BA400E942BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleOvpn;
+			productName = SimpleOvpn;
+			productReference = 4F4D6DF628B38BA400E942BB /* SimpleOvpn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F4D6E0E28B38BA500E942BB /* SimpleOvpnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4D6E2628B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpnTests" */;
+			buildPhases = (
+				4F4D6E0B28B38BA500E942BB /* Sources */,
+				4F4D6E0C28B38BA500E942BB /* Frameworks */,
+				4F4D6E0D28B38BA500E942BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4D6E1128B38BA500E942BB /* PBXTargetDependency */,
+			);
+			name = SimpleOvpnTests;
+			productName = SimpleOvpnTests;
+			productReference = 4F4D6E0F28B38BA500E942BB /* SimpleOvpnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F4D6E1828B38BA500E942BB /* SimpleOvpnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4D6E2928B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpnUITests" */;
+			buildPhases = (
+				4F4D6E1528B38BA500E942BB /* Sources */,
+				4F4D6E1628B38BA500E942BB /* Frameworks */,
+				4F4D6E1728B38BA500E942BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4D6E1B28B38BA500E942BB /* PBXTargetDependency */,
+			);
+			name = SimpleOvpnUITests;
+			productName = SimpleOvpnUITests;
+			productReference = 4F4D6E1928B38BA500E942BB /* SimpleOvpnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4D6DEE28B38BA400E942BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4F4D6DF528B38BA400E942BB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4F4D6E0E28B38BA500E942BB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4F4D6DF528B38BA400E942BB;
+					};
+					4F4D6E1828B38BA500E942BB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4F4D6DF528B38BA400E942BB;
+					};
+				};
+			};
+			buildConfigurationList = 4F4D6DF128B38BA400E942BB /* Build configuration list for PBXProject "SimpleOvpn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4D6DED28B38BA400E942BB;
+			productRefGroup = 4F4D6DF728B38BA400E942BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4D6DF528B38BA400E942BB /* SimpleOvpn */,
+				4F4D6E0E28B38BA500E942BB /* SimpleOvpnTests */,
+				4F4D6E1828B38BA500E942BB /* SimpleOvpnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4D6DF428B38BA400E942BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D6E0928B38BA500E942BB /* LaunchScreen.storyboard in Resources */,
+				4F4D6E0628B38BA500E942BB /* Assets.xcassets in Resources */,
+				4F4D6E0128B38BA400E942BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D6E0D28B38BA500E942BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D6E1728B38BA500E942BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4D6DF228B38BA400E942BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D6E0428B38BA400E942BB /* SimpleOvpn.xcdatamodeld in Sources */,
+				4F4D6DFE28B38BA400E942BB /* ViewController.swift in Sources */,
+				4F4D6DFA28B38BA400E942BB /* AppDelegate.swift in Sources */,
+				4F4D6DFC28B38BA400E942BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D6E0B28B38BA500E942BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D6E1428B38BA500E942BB /* SimpleOvpnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4D6E1528B38BA500E942BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4D6E1E28B38BA500E942BB /* SimpleOvpnUITests.swift in Sources */,
+				4F4D6E2028B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F4D6E1128B38BA500E942BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4D6DF528B38BA400E942BB /* SimpleOvpn */;
+			targetProxy = 4F4D6E1028B38BA500E942BB /* PBXContainerItemProxy */;
+		};
+		4F4D6E1B28B38BA500E942BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4D6DF528B38BA400E942BB /* SimpleOvpn */;
+			targetProxy = 4F4D6E1A28B38BA500E942BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F4D6DFF28B38BA400E942BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4D6E0028B38BA400E942BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4D6E0828B38BA500E942BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F4D6E2128B38BA500E942BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F4D6E2228B38BA500E942BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4D6E2428B38BA500E942BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZTDCDTRL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleOvpn/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longkimhoang.SimpleOvpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4D6E2528B38BA500E942BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZTDCDTRL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleOvpn/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longkimhoang.SimpleOvpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F4D6E2728B38BA500E942BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZTDCDTRL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longkimhoang.SimpleOvpnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleOvpn.app/SimpleOvpn";
+			};
+			name = Debug;
+		};
+		4F4D6E2828B38BA500E942BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZTDCDTRL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longkimhoang.SimpleOvpnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleOvpn.app/SimpleOvpn";
+			};
+			name = Release;
+		};
+		4F4D6E2A28B38BA500E942BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZTDCDTRL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longkimhoang.SimpleOvpnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleOvpn;
+			};
+			name = Debug;
+		};
+		4F4D6E2B28B38BA500E942BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZTDCDTRL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.longkimhoang.SimpleOvpnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleOvpn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4D6DF128B38BA400E942BB /* Build configuration list for PBXProject "SimpleOvpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D6E2128B38BA500E942BB /* Debug */,
+				4F4D6E2228B38BA500E942BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4D6E2328B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D6E2428B38BA500E942BB /* Debug */,
+				4F4D6E2528B38BA500E942BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4D6E2628B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D6E2728B38BA500E942BB /* Debug */,
+				4F4D6E2828B38BA500E942BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4D6E2928B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4D6E2A28B38BA500E942BB /* Debug */,
+				4F4D6E2B28B38BA500E942BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F4D6E0328B38BA400E942BB /* SimpleOvpn.xcdatamodel */,
+			);
+			currentVersion = 4F4D6E0328B38BA400E942BB /* SimpleOvpn.xcdatamodel */;
+			path = SimpleOvpn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F4D6DEE28B38BA400E942BB /* Project object */;
+}

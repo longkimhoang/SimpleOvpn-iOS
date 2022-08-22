@@ -139,6 +139,7 @@
 			buildConfigurationList = 4F4D6E2328B38BA500E942BB /* Build configuration list for PBXNativeTarget "SimpleOvpn" */;
 			buildPhases = (
 				4F4D6DF228B38BA400E942BB /* Sources */,
+				4F9112F628B3DA3B00C39724 /* Lint Swift source files */,
 				4F4D6DF328B38BA400E942BB /* Frameworks */,
 				4F4D6DF428B38BA400E942BB /* Resources */,
 			);
@@ -263,6 +264,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9112F628B3DA3B00C39724 /* Lint Swift source files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Swift source files";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F4D6DF228B38BA400E942BB /* Sources */ = {

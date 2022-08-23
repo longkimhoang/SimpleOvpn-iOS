@@ -19,4 +19,9 @@ class Fastfile: LaneFile {
             """
         sh(command: formatScript)
     }
+    
+    func testLane() {
+        desc("Run tests")
+        scan()
+    }
 }

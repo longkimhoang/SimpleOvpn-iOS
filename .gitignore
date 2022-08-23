@@ -12,3 +12,4 @@ xcuserdata/
 
 # scan temporary files
 **/fastlane/test_output
+**/test_output

@@ -9,8 +9,14 @@
 import Foundation
 
 class Fastfile: LaneFile {
-	func customLane() {
-	desc("Description of what the lane does")
-		// add actions here: https://docs.fastlane.tools/actions
-	}
+    func formatSourceFilesLane() {
+        desc("Format source files")
+        let formatDirectories = ["SimpleOvpn", "SimpleOvpnTests", "SimpleOvpnUITests"]
+        let formatScript = """
+            if which swift-format > /dev/null; then
+                swift-format -i -p -r \(formatDirectories.joined(separator: " "))
+            fi
+            """
+        sh(command: formatScript)
+    }
 }

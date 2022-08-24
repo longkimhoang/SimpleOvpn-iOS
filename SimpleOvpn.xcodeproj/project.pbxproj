@@ -57,6 +57,7 @@
 		4FB7C7BA28B4F1A3002107EF /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
 		4FB7C7BC28B4F351002107EF /* PersistentContainer+Swinject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersistentContainer+Swinject.swift"; sourceTree = "<group>"; };
 		4FB7C7C028B4F73D002107EF /* UIApplication+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Container.swift"; sourceTree = "<group>"; };
+		4FCC902C28B5D786007DE767 /* .swift-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-format"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		4F4D6DED28B38BA400E942BB = {
 			isa = PBXGroup;
 			children = (
+				4FCC902B28B5D762007DE767 /* Configuration Files */,
 				4F4D6DF728B38BA400E942BB /* Products */,
 				4F4D6DF828B38BA400E942BB /* SimpleOvpn */,
 				4F4D6E1228B38BA500E942BB /* SimpleOvpnTests */,
@@ -154,6 +156,14 @@
 				4FB7C7C028B4F73D002107EF /* UIApplication+Container.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		4FCC902B28B5D762007DE767 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC902C28B5D786007DE767 /* .swift-format */,
+			);
+			path = "Configuration Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

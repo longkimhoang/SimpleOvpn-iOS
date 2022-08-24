@@ -14,10 +14,12 @@ extension Container {
     func registerPersistentContainer() {
         autoregister(PersistentContainer.self, argument: String.self) { name in
             let container = PersistentContainer(name: name)
+
             container.loadPersistentStores { _, error in
                 guard let error = error as? NSError else { return }
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
+
             return container
         }.inObjectScope(.container)
     }

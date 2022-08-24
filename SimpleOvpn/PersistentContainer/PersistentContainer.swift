@@ -12,7 +12,10 @@ final class PersistentContainer: NSPersistentContainer {
     func saveContext(_ context: NSManagedObjectContext? = nil) {
         let context = context ?? viewContext
         guard context.hasChanges else { return }
-        do { try context.save() } catch let error as NSError {
+
+        do {
+            try context.save()
+        } catch let error as NSError {
             fatalError("Unresolved error \(error), \(error.userInfo)")
         }
     }

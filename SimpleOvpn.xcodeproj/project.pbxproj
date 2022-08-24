@@ -303,6 +303,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		4F9112F628B3DA3B00C39724 /* Lint Swift source files */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);

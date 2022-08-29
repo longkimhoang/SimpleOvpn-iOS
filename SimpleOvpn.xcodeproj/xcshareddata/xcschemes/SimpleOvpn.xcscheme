@@ -48,6 +48,16 @@
                ReferencedContainer = "container:SimpleOvpn.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "StubServerTests"
+               BuildableName = "StubServerTests"
+               BlueprintName = "StubServerTests"
+               ReferencedContainer = "container:StubServer">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -70,6 +80,12 @@
             ReferencedContainer = "container:SimpleOvpn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-com.longkimhoang.SimpleOvpn.StubsEnabled YES"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

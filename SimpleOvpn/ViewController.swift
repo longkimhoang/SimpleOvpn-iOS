@@ -11,6 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()  // Do any additional setup after loading the view.
+        let controller = VpnGateAPIController()
+        Task {
+            let servers = try await controller.fetchVpnServers()
+            print(servers.count)
+        }
     }
 
 }

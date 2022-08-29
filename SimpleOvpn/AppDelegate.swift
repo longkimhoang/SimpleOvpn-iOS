@@ -9,6 +9,10 @@ import CoreData
 import Swinject
 import UIKit
 
+#if DEBUG
+import SimpleOvpnStubs
+#endif
+
 @main class AppDelegate: UIResponder, UIApplicationDelegate {
     let container = Container()
 
@@ -16,7 +20,10 @@ import UIKit
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        container.registerPersistentContainer()
+        if UserDefaults.standard.stubsEnabled {
+            SimpleOvpnStubs.loadStubs()
+        }
+
         return true
     }
 

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F26A4A128B761140077FD8B /* VpnServer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26A4A028B761140077FD8B /* VpnServer+CoreDataClass.swift */; };
+		4F26A4AE28B77E6D0077FD8B /* VpnServerProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26A4AD28B77E6D0077FD8B /* VpnServerProperties.swift */; };
+		4F26A4B328B781490077FD8B /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = 4F26A4B228B781490077FD8B /* CSV */; };
+		4F2CF05428BC55D80053F3F2 /* VpnGateAPIControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CF05328BC55D80053F3F2 /* VpnGateAPIControllerTests.swift */; };
+		4F3E76EB28BA245B000DA5FC /* SimpleOvpnStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 4F3E76EA28BA245B000DA5FC /* SimpleOvpnStubs */; };
 		4F4D6DFA28B38BA400E942BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DF928B38BA400E942BB /* AppDelegate.swift */; };
 		4F4D6DFC28B38BA400E942BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */; };
 		4F4D6DFE28B38BA400E942BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6DFD28B38BA400E942BB /* ViewController.swift */; };
@@ -18,9 +23,15 @@
 		4F4D6E2028B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D6E1F28B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift */; };
 		4F910DBE28B3BE1D00FFE4F7 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4F910DBD28B3BE1D00FFE4F7 /* Swinject */; };
 		4F910DC128B3C10800FFE4F7 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 4F910DC028B3C10800FFE4F7 /* SwinjectAutoregistration */; };
+		4FB3B5DE28B9D6A100055C59 /* Logger+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB3B5DD28B9D6A100055C59 /* Logger+Extensions.swift */; };
+		4FB3B5E428B9D91E00055C59 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4FB3B5E328B9D91E00055C59 /* Alamofire */; };
+		4FB3B5E628B9DA2400055C59 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB3B5E528B9DA2400055C59 /* HttpClient.swift */; };
+		4FB3B5EB28B9E07500055C59 /* MockHtttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB3B5EA28B9E07500055C59 /* MockHtttpClient.swift */; };
+		4FB3B5ED28B9FCE800055C59 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB3B5EC28B9FCE800055C59 /* UserDefaults+Extensions.swift */; };
 		4FB7C7BB28B4F1A3002107EF /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7C7BA28B4F1A3002107EF /* PersistentContainer.swift */; };
 		4FB7C7BD28B4F351002107EF /* PersistentContainer+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7C7BC28B4F351002107EF /* PersistentContainer+Swinject.swift */; };
 		4FB7C7C128B4F73D002107EF /* UIApplication+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7C7C028B4F73D002107EF /* UIApplication+Container.swift */; };
+		4FCC903028B60BAE007DE767 /* VpnGateAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC902F28B60BAE007DE767 /* VpnGateAPIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F26A4A028B761140077FD8B /* VpnServer+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VpnServer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4F26A4AD28B77E6D0077FD8B /* VpnServerProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnServerProperties.swift; sourceTree = "<group>"; };
+		4F2CF05328BC55D80053F3F2 /* VpnGateAPIControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnGateAPIControllerTests.swift; sourceTree = "<group>"; };
+		4F3E76E928BA2192000DA5FC /* SimpleOvpnStubs */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SimpleOvpnStubs; sourceTree = "<group>"; };
 		4F4D6DF628B38BA400E942BB /* SimpleOvpn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleOvpn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4D6DF928B38BA400E942BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F4D6DFB28B38BA400E942BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,10 +69,15 @@
 		4F4D6E1928B38BA500E942BB /* SimpleOvpnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOvpnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4D6E1D28B38BA500E942BB /* SimpleOvpnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOvpnUITests.swift; sourceTree = "<group>"; };
 		4F4D6E1F28B38BA500E942BB /* SimpleOvpnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOvpnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FB3B5DD28B9D6A100055C59 /* Logger+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extensions.swift"; sourceTree = "<group>"; };
+		4FB3B5E528B9DA2400055C59 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		4FB3B5EA28B9E07500055C59 /* MockHtttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHtttpClient.swift; sourceTree = "<group>"; };
+		4FB3B5EC28B9FCE800055C59 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		4FB7C7BA28B4F1A3002107EF /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
 		4FB7C7BC28B4F351002107EF /* PersistentContainer+Swinject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersistentContainer+Swinject.swift"; sourceTree = "<group>"; };
 		4FB7C7C028B4F73D002107EF /* UIApplication+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Container.swift"; sourceTree = "<group>"; };
 		4FCC902C28B5D786007DE767 /* .swift-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-format"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		4FCC902F28B60BAE007DE767 /* VpnGateAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnGateAPIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F26A4B328B781490077FD8B /* CSV in Frameworks */,
+				4FB3B5E428B9D91E00055C59 /* Alamofire in Frameworks */,
 				4F910DBE28B3BE1D00FFE4F7 /* Swinject in Frameworks */,
 				4F910DC128B3C10800FFE4F7 /* SwinjectAutoregistration in Frameworks */,
+				4F3E76EB28BA245B000DA5FC /* SimpleOvpnStubs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F26A49F28B761140077FD8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F26A4A028B761140077FD8B /* VpnServer+CoreDataClass.swift */,
+				4F26A4AD28B77E6D0077FD8B /* VpnServerProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4F4D6DED28B38BA400E942BB = {
 			isa = PBXGroup;
 			children = (
+				4F3E76E928BA2192000DA5FC /* SimpleOvpnStubs */,
 				4FCC902B28B5D762007DE767 /* Configuration Files */,
+				4FB3B5F628BA060600055C59 /* Frameworks */,
 				4F4D6DF728B38BA400E942BB /* Products */,
 				4F4D6DF828B38BA400E942BB /* SimpleOvpn */,
 				4F4D6E1228B38BA500E942BB /* SimpleOvpnTests */,
@@ -117,9 +151,10 @@
 				4F4D6DFD28B38BA400E942BB /* ViewController.swift */,
 				4F4D6E0528B38BA500E942BB /* Assets.xcassets */,
 				4F4D6E0728B38BA500E942BB /* LaunchScreen.storyboard */,
-				4FB7C7B928B4F190002107EF /* PersistentContainer */,
+				4FB7C7B928B4F190002107EF /* Persistence */,
 				4FB7C7BF28B4F72F002107EF /* Shared */,
 				4F4D6E0228B38BA400E942BB /* SimpleOvpn.xcdatamodeld */,
+				4FCC902E28B60B72007DE767 /* VpnGateClient */,
 			);
 			path = SimpleOvpn;
 			sourceTree = "<group>";
@@ -128,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				4F4D6E1328B38BA500E942BB /* SimpleOvpnTests.swift */,
+				4FB3B5E928B9E06500055C59 /* Shared */,
+				4FB3B5DF28B9D83F00055C59 /* VpnGateClient */,
 			);
 			path = SimpleOvpnTests;
 			sourceTree = "<group>";
@@ -141,19 +178,61 @@
 			path = SimpleOvpnUITests;
 			sourceTree = "<group>";
 		};
-		4FB7C7B928B4F190002107EF /* PersistentContainer */ = {
+		4FB3B5DF28B9D83F00055C59 /* VpnGateClient */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CF05328BC55D80053F3F2 /* VpnGateAPIControllerTests.swift */,
+			);
+			path = VpnGateClient;
+			sourceTree = "<group>";
+		};
+		4FB3B5E028B9D88E00055C59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4FB3B5DD28B9D6A100055C59 /* Logger+Extensions.swift */,
+				4FB7C7C028B4F73D002107EF /* UIApplication+Container.swift */,
+				4FB3B5EC28B9FCE800055C59 /* UserDefaults+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FB3B5E128B9D89800055C59 /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				4FB3B5E528B9DA2400055C59 /* HttpClient.swift */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		4FB3B5E928B9E06500055C59 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4FB3B5EA28B9E07500055C59 /* MockHtttpClient.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4FB3B5F628BA060600055C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FB7C7B928B4F190002107EF /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
 				4FB7C7BA28B4F1A3002107EF /* PersistentContainer.swift */,
 				4FB7C7BC28B4F351002107EF /* PersistentContainer+Swinject.swift */,
 			);
-			path = PersistentContainer;
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		4FB7C7BF28B4F72F002107EF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4FB7C7C028B4F73D002107EF /* UIApplication+Container.swift */,
+				4FB3B5E028B9D88E00055C59 /* Extensions */,
+				4FB3B5E128B9D89800055C59 /* HttpClient */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -164,6 +243,23 @@
 				4FCC902C28B5D786007DE767 /* .swift-format */,
 			);
 			path = "Configuration Files";
+			sourceTree = "<group>";
+		};
+		4FCC902E28B60B72007DE767 /* VpnGateClient */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC903128B60D09007DE767 /* Controller */,
+				4F26A49F28B761140077FD8B /* Models */,
+			);
+			path = VpnGateClient;
+			sourceTree = "<group>";
+		};
+		4FCC903128B60D09007DE767 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FCC902F28B60BAE007DE767 /* VpnGateAPIController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +282,9 @@
 			packageProductDependencies = (
 				4F910DBD28B3BE1D00FFE4F7 /* Swinject */,
 				4F910DC028B3C10800FFE4F7 /* SwinjectAutoregistration */,
+				4F26A4B228B781490077FD8B /* CSV */,
+				4FB3B5E328B9D91E00055C59 /* Alamofire */,
+				4F3E76EA28BA245B000DA5FC /* SimpleOvpnStubs */,
 			);
 			productName = SimpleOvpn;
 			productReference = 4F4D6DF628B38BA400E942BB /* SimpleOvpn.app */;
@@ -205,6 +304,8 @@
 				4F4D6E1128B38BA500E942BB /* PBXTargetDependency */,
 			);
 			name = SimpleOvpnTests;
+			packageProductDependencies = (
+			);
 			productName = SimpleOvpnTests;
 			productReference = 4F4D6E0F28B38BA500E942BB /* SimpleOvpnTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -262,6 +363,8 @@
 			packageReferences = (
 				4F910DBC28B3BE1D00FFE4F7 /* XCRemoteSwiftPackageReference "Swinject" */,
 				4F910DBF28B3C10800FFE4F7 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+				4F26A4B128B781490077FD8B /* XCRemoteSwiftPackageReference "CSV.swift" */,
+				4FB3B5E228B9D91E00055C59 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 4F4D6DF728B38BA400E942BB /* Products */;
 			projectDirPath = "";
@@ -327,12 +430,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCC903028B60BAE007DE767 /* VpnGateAPIController.swift in Sources */,
 				4F4D6E0428B38BA400E942BB /* SimpleOvpn.xcdatamodeld in Sources */,
+				4FB3B5E628B9DA2400055C59 /* HttpClient.swift in Sources */,
 				4F4D6DFE28B38BA400E942BB /* ViewController.swift in Sources */,
+				4F26A4A128B761140077FD8B /* VpnServer+CoreDataClass.swift in Sources */,
+				4FB3B5DE28B9D6A100055C59 /* Logger+Extensions.swift in Sources */,
 				4FB7C7C128B4F73D002107EF /* UIApplication+Container.swift in Sources */,
 				4FB7C7BB28B4F1A3002107EF /* PersistentContainer.swift in Sources */,
 				4F4D6DFA28B38BA400E942BB /* AppDelegate.swift in Sources */,
+				4F26A4AE28B77E6D0077FD8B /* VpnServerProperties.swift in Sources */,
 				4FB7C7BD28B4F351002107EF /* PersistentContainer+Swinject.swift in Sources */,
+				4FB3B5ED28B9FCE800055C59 /* UserDefaults+Extensions.swift in Sources */,
 				4F4D6DFC28B38BA400E942BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +450,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2CF05428BC55D80053F3F2 /* VpnGateAPIControllerTests.swift in Sources */,
+				4FB3B5EB28B9E07500055C59 /* MockHtttpClient.swift in Sources */,
 				4F4D6E1428B38BA500E942BB /* SimpleOvpnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,6 +778,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4F26A4B128B781490077FD8B /* XCRemoteSwiftPackageReference "CSV.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yaslab/CSV.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		4F910DBC28B3BE1D00FFE4F7 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
@@ -683,9 +802,26 @@
 				minimumVersion = 2.8.1;
 			};
 		};
+		4FB3B5E228B9D91E00055C59 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4F26A4B228B781490077FD8B /* CSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F26A4B128B781490077FD8B /* XCRemoteSwiftPackageReference "CSV.swift" */;
+			productName = CSV;
+		};
+		4F3E76EA28BA245B000DA5FC /* SimpleOvpnStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SimpleOvpnStubs;
+		};
 		4F910DBD28B3BE1D00FFE4F7 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4F910DBC28B3BE1D00FFE4F7 /* XCRemoteSwiftPackageReference "Swinject" */;
@@ -695,6 +831,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4F910DBF28B3C10800FFE4F7 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
 			productName = SwinjectAutoregistration;
+		};
+		4FB3B5E328B9D91E00055C59 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FB3B5E228B9D91E00055C59 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 
